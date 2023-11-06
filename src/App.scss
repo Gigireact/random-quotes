@@ -1,0 +1,77 @@
+/* src/App.css */
+#fdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  position:relative;
+  z-index: 2;
+  overflow: hidden;
+  /* padding-top: 20px; */
+  flex-direction: column;
+}
+
+
+html {
+  margin: 0; 
+  overflow: hidden;
+}
+#quote-box {
+  max-width: 500px;
+  max-height: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: black;
+  word-wrap: break-word;
+  color: white;
+}
+
+#text blockquote {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#author {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.random-bg {
+  transition: background-color 0.3s;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.last {
+  margin: 10px;
+  font-size: large;
+  font-weight: 500;
+}
