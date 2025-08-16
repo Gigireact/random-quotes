@@ -1,37 +1,39 @@
-/* src/App.css */
-#fdiv{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  position: fixed;
   background-color: black;
-  position:relative;
-  z-index: 2;
-  overflow: hidden;
-  /* padding-top: 20px; */
-  flex-direction: column;
+  transition: background-color 0.5s ease;
+  z-index: 1;
+  // flex-direction: column;
+  margin-left: 320px;
 }
 
-
-html {
-  margin: 0; 
-  overflow: hidden;
+#fdiv {
+  border-radius: 10px;
+  display: flex;
+  padding: 100px;
 }
+
 #quote-box {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 400px;
+  max-height: 400px;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px 5px lightblue;
   text-align: center;
   background-color: black;
   word-wrap: break-word;
   color: white;
+  margin-left: 30px;
+
 }
 
 #text blockquote {
   font-size: 24px;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgb(55, 177, 65);
 }
 
 #author {
@@ -64,14 +66,30 @@ a {
   transition: background-color 0.3s;
 }
 
-h2 {
+.title {
+  // position: fixed;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 40px;
   font-weight: 600;
+  margin: 40px;
+  color: #fff;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(9, 9, 182);
 }
 
-.last {
-  margin: 10px;
-  font-size: large;
-  font-weight: 500;
+#tweet-quote {
+  outline-style: dotted;
+  outline-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.twit {
+  color: #007bff;
+  size: 25px;
+  margin-top: 5px;
+}
+
+#new-quote {
+  // text-shadow: 2px 2px 5px red;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
